@@ -36,7 +36,8 @@ $upcoming_events = [
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo $church_name; ?></title>
+    <title>Homepage - Church of Christ-Disciples</title>
+    <link rel="icon" type="image/png" href="logo/cocdlogo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         :root {
@@ -478,10 +479,13 @@ $upcoming_events = [
                     </ul>
                 </div>
                 <div class="social-links">
-                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="https://web.facebook.com/cocdspc" target="_blank">
+                        <i class="fab fa-facebook"></i></a>
                     <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/kabataangcocd/" target="_blank">
+                        <i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/@cocdspc1171" target="_blank">
+                        <i class="fab fa-youtube"></i></a>
                 </div>
                 <p>&copy; <?php echo date("Y"); ?> <?php echo $church_name; ?>. All Rights Reserved.</p>
             </div>
